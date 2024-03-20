@@ -1,0 +1,40 @@
+DIFFERENCE BETWEEN DOCUMENT AND WINDOW OBJECTS
+
+DOCUMENT OBJECT:
+
+=>The Document object represents a web page that is loaded in the browser. 
+=>By accessing the document object,we can access the element in the HTML page.
+=>With the help of document objects,we can add dynamic content to our web page.
+=>It is the root element of the document object model.
+=>It is an object of window.
+=>we can't access windows objects properites inside the document.
+=>syntax:
+document.propertyname;
+//or
+window.document.propertyname;
+=>Few properites:
+element.innerHTML=new html content//change the inner HTML of an element
+element.attribute=new value//change the attribute value of the HTML element
+=>Few Methods:
+document.createElements(element)//create an HTML element
+document.removeChild(element)//Remove an HTML element
+
+WINDOW OBJECT:
+
+=>The window object is the topmost object of the DOM hierarhy.
+=>It represents a browser window or frame that displays the contents of the webpage.
+=>Whenever a window appears on the screen to display the contents of the document, the 
+window object is created.
+=>The window is the global element for all objects,functions,etc.
+=>It is an object of the browser.
+=>We can access document object properites inside the window. 
+=>syntax:
+window.propertyname;
+=>Few properites:
+window.innerHeight-the inner Height of the window(in pixels)
+window.innerWidth-the inner width of the window(in pixels)
+=>Few Methods:
+window.open()-open a new window
+window.close()-close a new window
+window.moveTo()-move the current window
+window.resizeTo()-resize the current window
